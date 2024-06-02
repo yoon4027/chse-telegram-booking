@@ -1,0 +1,23 @@
+[package]
+name = "telegram-ticket"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.7"
+eyre = "0.6.12"
+futures = "0.3"
+mongodb = { version = "2.8.1" }
+qrcode-generator = "4.1"
+uuid = "*"
+regex = "1.10.3"
+serde = { version = "1.0.197", features = ["derive"] }
+serenity = "0.12.1"
+teloxide = { version = "0.12.2", features = ["macros"] }
+tokio = { version = "1.36.0", features = ["rt-multi-thread", "macros"] }
+url = "2.5.0"
+
+[target.x86_64-unknown-linux-gnu]
+linker = "x86_64-unknown-linux-gnu-gcc"

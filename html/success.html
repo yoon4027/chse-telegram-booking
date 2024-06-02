@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Found ticket order!</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .content {
+        text-align: center;
+      }
+
+      @media screen and (max-width: 768px) {
+        .content {
+          font-size: 1.5em;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>Found ticket order!</h1>
+        <p>Name: $name$</p>
+        <p>Phone number: $phone_number$</p>
+        <p>Seats (night 1):</p>
+        <p>$seats_night1$</p>
+        <p>Seats (night 2):</p>
+        <p>$seats_night2$</p>
+      </div>
+    </div>
+  </body>
+</html>
