@@ -15,8 +15,8 @@ pub async fn main(
 ) -> HandlerResult {
     let webhook = Webhook::from_id_with_token(
         &discord,
-        1213823710239260762,
-        "hJCvgXVRFMLl9iJPgXkyR59V6jn6VB1VJCT-rF1UNmpQCHF7tlnkosEQy6rtI--wOXtI",
+        1010,
+        "",
     )
     .await?;
 
